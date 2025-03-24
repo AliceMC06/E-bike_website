@@ -1,1 +1,25 @@
-#map { height: 500px; width: 100%; }
+#map { height: 600px; width: 100%; }
+
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+header{
+    background-color: rgb(32, 29, 91);
+}
+
+/* Change navbar background color */
+.navbar {
+    background-color: #212d8b !important; /* Change to your desired color */
+}
+
+/* Change navbar text color */
+.navbar .nav-link {
+    color: white !important; /* Ensures links are visible */
+}
+
+.navbar-brand {
+    color: white;
+}
+
