@@ -22,37 +22,48 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
-          aria-label="Toggle navigation">
+  <header> 
+    hi
+  </header>
+    
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#section-one">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#section-two">Map</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#section-three">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#section-four">Images</a>
-                
-                
-              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html" target="_blank">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="map.html" target="_blank">Map</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="price.html" target="_blank">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="image.html" target="_blank">Images</a>
+                </li>
             </ul>
-          </div>
         </div>
-      </nav>
+    </div>
+</nav>
+
 
       <div class="section-one" id="section-one">
+        <style>
+          body{
+            background-image: url('images/image1.png');
+            background-size: 1041.89px 795.276px;
+            background-repeat: no-repeat;
+          }
+        </style>
         <h1>scheme work</h1>
 
       </div>
@@ -60,42 +71,18 @@
 
      
 
-      <div class="container" id="sectio-two">
-        <h2>Interactive Map</h2>
-        <div id="map"></div>
-        </div>
+      
 
 
 
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script>
-        // Initialize the map
-        var map = L.map('map').setView([51.44094, -2.59478], 13);
-
-        // Add OpenStreetMap tiles
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '© OpenStreetMap contributors'
-        }).addTo(map);
-
-        // Add a marker
-        var marker = L.marker([51.505, -0.09]).addTo(map)
-            .bindPopup('Hello! I am a marker.')
-            .openPopup();
-    </script>
+    
 
 
-    <div class="section-three" id="section-three">
-        <h3>Pricing</h3>
-
-    </div>
+    
 
 
-    <div class="section-four" id="section-four">
-        <h4>Images</h4>
-
-
-    </div>
+    
 
 </body>
 

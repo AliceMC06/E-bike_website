@@ -1,22 +1,35 @@
 #map { height: 600px; width: 100%; }
 
 body{
-    background-color: rgb(255, 255, 255);
+
+    background-image: url('images/image1.png');
+    background-size: 1041.89px 795.276px;
+    
+    background-repeat: no-repeat;
+    
     
 }
 
 header{
     background-color: rgb(32, 29, 91);
+    color:white;
+    font-size:40px;
+   text-align:left;
+   
+   
+    
 }
 
 /* Change navbar background color */
 .navbar {
     background-color: #212d8b !important; /* Change to your desired color */
+    padding:0px 0px 0px 0px;
 }
 
 /* Change navbar text color */
 .navbar .nav-link {
     color: white !important; /* Ensures links are visible */
+    font-size:15px;
 }
 
 .navbar-brand {
@@ -39,13 +52,27 @@ h2{
 
 h3{
     font-size:60px;
-    margin:3px;
+    text-align:left;
     padding: 10px 0px 40px 0px;
+    margin:3px;
 
 }
 
 h4{
     font-size:60px;
-    margin:3px;
     padding: 10px 0px 40px 0px;
+    margin:3px;
 }
+
+.container {
+    max-width: 10000px;
+    
+}
+
+#map {
+    width: 80%;
+    height: 500px;
+    padding: 0px 50px 0px 50px;
+    margin:150px;
+}
+
