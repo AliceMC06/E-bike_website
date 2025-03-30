@@ -14,26 +14,55 @@ header{
     background-color: rgb(32, 29, 91);
     color:white;
     font-size:40px;
-   text-align:left;
+    text-align:left;
    
    
     
 }
 
-/* Change navbar background color */
-.navbar {
-    background-color: #212d8b !important; /* Change to your desired color */
-    padding:0px 0px 0px 0px;
+.navbar .nav-link {
+    color: white !important; 
+    font-size: 15px;
+    padding: 10px 15px; 
+    transition: background-color 0.3s, color 0.3s; 
+    border: none; 
 }
 
-/* Change navbar text color */
+
 .navbar .nav-link {
-    color: white !important; /* Ensures links are visible */
-    font-size:15px;
+    color: white; 
+    font-size: 15px;
+    padding: 10px 15px; 
+    border: none; 
+    transition: background-color 0.3s, color 0.3s; 
 }
+
+
+.navbar .nav-link:hover {
+    background-color: white !important; 
+    color: #212d8b !important; 
+}
+
+
+.navbar {
+    background-color: #212d8b !important; 
+    padding: 5px; 
+}
+
 
 .navbar-brand {
-    color: white;
+    color: white !important; 
+}
+
+
+.navbar-toggler {
+    border: none !important; 
+    background-color: transparent !important; 
+}
+
+
+.navbar-toggler-icon {
+    background-color: white !important; 
 }
 
 h1{
@@ -82,20 +111,13 @@ h4{
     background-color: #80acd8a3;
     text-align: center;
     border-radius: 10px;
-    
 }
 
 .pricing h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color:white;
+    color: white;
     font-size: 60px;
-}
-
-.pricing-plans {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
 }
 
 .plan {
@@ -103,20 +125,7 @@ h4{
     padding: 30px;
     border-radius: 10px;
     box-shadow: 5px 4px 5px 8px rgba(0, 0, 0, 0.2);
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     text-align: center;
 }
-
-.plan h3 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-.plan p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
-
-
-
