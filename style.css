@@ -76,3 +76,47 @@ h4{
     margin: 0 auto;
 }
 
+
+.pricing {
+    padding: 50px 20px;
+    background-color: #80acd8a3;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.pricing h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color:white;
+    font-size: 60px;
+}
+
+.pricing-plans {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.plan {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    text-align: center;
+}
+
+.plan h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+
+
+
