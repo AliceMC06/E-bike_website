@@ -144,6 +144,7 @@ h6 {
     width: 100%;
     max-width: 250px;
     text-align: center;
+    color:black;
 }
 
 
@@ -163,7 +164,7 @@ h6 {
 }
 
 p {
-    color:white;
+    color:black;
     font-size: 20px;
 }
 
@@ -188,9 +189,22 @@ p {
     
 }
 
-.footer-content{
-    background-color: #212d8b ;
-    color: white;
+.contact{
+    background-color: #212d8b;
+    color: white !important;
     text-align: center;
     padding: 20px;
 }
+
+.card-text {
+    color:white !important;
+}
+
+
+
+#footer {
+    color: white;
+    background-color: #212d8b;
+    
+}
+
