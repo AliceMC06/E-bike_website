@@ -26,6 +26,7 @@ header{
     padding: 10px 15px; 
     transition: background-color 0.3s, color 0.3s; 
     border: none; 
+    
 }
 
 
@@ -47,6 +48,8 @@ header{
 .navbar {
     background-color: #212d8b !important; 
     padding: 5px; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 
@@ -114,6 +117,7 @@ h6 {
     height: 400px;
     padding: 0px;
     margin: 0 auto;
+    margin-bottom: 10px;
     border-radius: 10px;
 }
 
@@ -182,4 +186,11 @@ p {
     margin-right: 280px;
     margin-bottom: 10px;
     
+}
+
+.footer-content{
+    background-color: #212d8b ;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
