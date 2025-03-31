@@ -127,6 +127,8 @@ h6 {
     background-color: #5997d553;
     text-align: center;
     border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .pricing h2 {
