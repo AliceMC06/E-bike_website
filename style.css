@@ -15,6 +15,9 @@ header{
     color:white;
     font-size:40px;
     text-align:left;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
    
    
     
@@ -36,6 +39,9 @@ header{
     padding: 10px 15px; 
     border: none; 
     transition: background-color 0.3s, color 0.3s; 
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
 }
 
 
@@ -72,6 +78,9 @@ h1{
     font-size:60px;
     padding: 10px 0px 0px 0px;
     margin:3px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
     
     
 }
@@ -81,6 +90,9 @@ h2{
     text-align:center;
     margin:3px;
     padding: 10px 0px 0px 0px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;s
 }
 
 h3{
@@ -88,6 +100,9 @@ h3{
     text-align:center;
     padding: 10px 0px 40px 0px;
     margin:3px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
 
 }
 
@@ -95,6 +110,9 @@ h4{
     font-size:60px;
     padding: 10px 0px 40px 0px;
     margin:3px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
 }
 
 
@@ -104,6 +122,9 @@ h6 {
     text-align:center;
     padding: 10px 260px 10px 260px;
     margin:3px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    
+    font-style: italic;
 }
 .container {
     max-width: 10000px;
@@ -136,6 +157,10 @@ h6 {
     margin-bottom: 30px;
     color: white;
     font-size: 60px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    
 }
 
 .plan {
@@ -163,17 +188,26 @@ h6 {
 .card-title{
     color:white;
     font-size: 40px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
 }
 
 p {
     color:black;
     font-size: 20px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    
+    font-style: italic;
 }
 
 #join-now {
     background-color: #f88f45 !important; 
     color: white !important; 
     border: none; 
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
 }
 
 #join-now:hover {
@@ -188,6 +222,9 @@ p {
     margin-left: 280px;
     margin-right: 280px;
     margin-bottom: 10px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    
+    font-style: italic;
     
 }
 
@@ -196,6 +233,9 @@ p {
     color: white !important;
     text-align: center;
     padding: 20px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .card-text {
