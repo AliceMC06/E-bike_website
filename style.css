@@ -87,7 +87,7 @@ h1{
 
 h2{
     font-size:60px;
-    color:#f88f45;
+    color:#f8812c;
     text-align:center;
     margin:3px;
     padding: 10px 0px 0px 0px;
@@ -118,11 +118,12 @@ h4{
 
 
 
+
 h6 {
     font-size:20px;
     text-align:center;
     color:#ffb078;
-    padding: 10px 260px 10px 260px;
+    padding: 10px 25% 10px 25%;
     margin:3px;
     font-family: "Helvetica Neue", Arial, sans-serif;
     
@@ -133,7 +134,7 @@ h7 {
     font-size:20px;
     text-align:center;
     color:#f88f45;
-    padding: 10px 260px 10px 260px;
+    padding: 10px 25% 10px 25%;
     margin:3px;
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-weight: bold;
@@ -239,8 +240,8 @@ p {
 }
 
 #list {
-    margin-left: 280px;
-    margin-right: 280px;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 10px;
     font-family: "Helvetica Neue", Arial, sans-serif;
     
